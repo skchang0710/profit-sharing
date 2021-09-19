@@ -1,4 +1,4 @@
-##Consideration
+## Consideration
 
 According to the assignment example, I assume the sessions are sequential, not overlapping, and not necessary to share information with each other. They also have the state to verify whether it can be invested or claimed with a snapshot. The session is a basic class for storing the profit data and handling the "claim" method.
 
