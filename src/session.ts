@@ -30,6 +30,7 @@ export default class Session {
     this.#profit += amount;
   }
 
+  // create a claimable snapshot and set the session inactive
   settle(investments: {[key: string]: number}) {
     this.verifyIfActive();
     this.#isActive = false;
