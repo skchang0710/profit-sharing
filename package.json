@@ -4,7 +4,7 @@
   "description": "a practice for nodejs and jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "author": "Quincy Chang",
   "license": "ISC",
